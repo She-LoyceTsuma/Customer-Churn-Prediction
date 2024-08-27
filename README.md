@@ -73,6 +73,48 @@ Standard Deviation: 15.28
 Median Age: 44.00
 Variance: 233.49
 
+<img width="531" alt="image" src="https://github.com/user-attachments/assets/cf936071-bc02-4aaf-8303-c00061401b7f">
+
+
+Mean: 12.49
+Median: 12.00
+Max: 24.00
+Min_usage: 1.00
+
+<img width="412" alt="image" src="https://github.com/user-attachments/assets/313abec4-defe-4eab-a6e0-a4f99fc0595a">
+
+
+Mean: 274.39
+Median: 274.00
+Max: 500.00
+Variance: 17020.61
+Std: 130.46
+
+<img width="418" alt="image" src="https://github.com/user-attachments/assets/a970c83b-1d93-49f2-b0e2-746178b93f61">
+
+
+
+Mean: 65.05
+Median: 65.01
+Max: 100.00
+Variance: 409.28
+Min: 30.00
+Min_usage: 50.00
+
+
+<img width="428" alt="image" src="https://github.com/user-attachments/assets/f66d163c-7eaa-4cca-a466-8e2b061aef85">
+
+
+<img width="456" alt="image" src="https://github.com/user-attachments/assets/21b33d74-b1e8-464c-80ba-993d5cbb221e">
+
+
+<img width="401" alt="image" src="https://github.com/user-attachments/assets/28b98dae-5c62-4a99-96d9-02a4f185a426">
+
+
+
+
+
+
 
 
 
