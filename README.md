@@ -67,6 +67,7 @@ We  imported all the necessary libraries, load the dataset using pandas library,
 ### Univariate Analysis 
 
 <img width="582" alt="image" src="https://github.com/user-attachments/assets/a70a92ca-d520-4c85-a0eb-a0ecbb5e4f5e">
+
 Mean Age: 44.03
 Standard Deviation: 15.28
 Median Age: 44.00
