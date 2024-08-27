@@ -1,6 +1,6 @@
 # Sunborn(Luxury Brand) - Customer Churn Prediction
 
-<img width="617" alt="image" src="https://github.com/user-attachments/assets/129b4e45-54b8-43ac-a9d2-3393df976a6f">
+  <img width="700" alt="image" src="https://github.com/user-attachments/assets/129b4e45-54b8-43ac-a9d2-3393df976a6f">
 
 
 ## About Sunborn
