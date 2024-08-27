@@ -259,7 +259,7 @@ Collect More Data: Increase the dataset size to improve model training.
 
 # Conclusion
 
-There is need for additional data eg accomodation type, reservation type ,Sunborn to provide addtional data 
+There is need for additional data eg accommodation type, reservation type etc.The Stakeholder-Sunborn to provide additional data 
 
 A much more complex algorithm is needed and not a DecisionTreeClassifier or LogisticRegression Model(as the features do not exhibit linearity)
 
