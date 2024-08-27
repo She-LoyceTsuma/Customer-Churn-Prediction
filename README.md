@@ -32,7 +32,7 @@ Key research questions include :
 
 - The accuracy of predictions
 
-The relationship between service features and customer retention strategies.
+- Investigate the relationship between service features and customer retention strategies.
 
 By focusing on these areas, the project seeks to help Sunborn effectively mitigate customer churn and enhance overall business performance.
 
