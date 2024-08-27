@@ -1,4 +1,5 @@
 # Sunborn(Luxury Brand) - Customer Churn Prediction
+The CRISP DM(Cross -Industry Standard Process for Data Mining) Approach
 
 <img width="700" alt="image" src="https://github.com/user-attachments/assets/1d80983e-3f22-497f-ab19-97b486919ef5">
 
