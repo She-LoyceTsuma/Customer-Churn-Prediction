@@ -1,6 +1,7 @@
 # Sunborn(Luxury Brand) - Customer Churn Prediction
 
-  <img width="700" alt="image" src="https://github.com/user-attachments/assets/129b4e45-54b8-43ac-a9d2-3393df976a6f">
+      <img width="700" alt="image" src="https://github.com/user-attachments/assets/1d80983e-3f22-497f-ab19-97b486919ef5">
+
 
 
 ## About Sunborn
@@ -15,7 +16,7 @@ Research indicates that retaining existing customers can lead to substantial pro
 
 ## The Classification Problem
 
-<img width="400" alt="image" src="https://github.com/user-attachments/assets/db79f6b0-9c79-42f7-b91b-ba93512801ce">
+        <img width="400" alt="image" src="https://github.com/user-attachments/assets/db79f6b0-9c79-42f7-b91b-ba93512801ce">
 
 The task is to predict whether a customer will continue living in their rental yatch or vacate (i.e., churn). This model could be critical for luxury real estate and maritime hospitality developers to understand customer behavior and implement retention strategies
 
