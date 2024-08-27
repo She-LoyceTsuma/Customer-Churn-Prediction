@@ -215,7 +215,7 @@ weighted avg       0.50      0.50      0.50     20000
 
 **Identify Key Features Influencing Customer Churn:**
 
-The current model’s performance does not provide clear insights into the key features influencing churn due to its low accuracy and balanced precision and recall.Although exhaustive hyperparameter tuning technique was applied the GridSearchCV.
+The current model’s performance does not provide clear insights into the key features influencing churn due to its low accuracy and balanced precision and recall.Although exhaustive hyperparameter tuning technique was applied through GridSearchCV.
 
 Further feature importance analysis or using more sophisticated models like Random Forests or Gradient Boosting might help identify significant predictors.
 
