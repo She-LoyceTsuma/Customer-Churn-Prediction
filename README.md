@@ -12,7 +12,7 @@ As competition intensifies and market saturation increases, customer retention h
 
 Research indicates that retaining existing customers can lead to substantial profit increases, highlighting the importance of investing in effective customer retention strategies.
 
-## Classification Problem
+## The Classification Problem
 
 <img width="400" alt="image" src="https://github.com/user-attachments/assets/db79f6b0-9c79-42f7-b91b-ba93512801ce">
 
@@ -35,4 +35,28 @@ Key research questions include :
 - Investigate the relationship between service features and customer retention strategies.
 
 By focusing on these areas, the project seeks to help Sunborn effectively mitigate customer churn and enhance overall business performance.
+
+The Data
+
+The data obtained from Kaggle: Customer Churn Dataset
+
+Data consists of the below column features:
+
+CustomerID- Unique identifier
+
+Name- Client name
+
+Age- Client Age minimum being 18 years
+
+Gender- Either Male or Female
+
+Location- A state in USA
+
+Subscription_Length_Months- How long the client has used the Yatch premises
+
+Monthly_Bill- monthly rent charged
+
+Total_Usage_GB - Total amount in Sterling pounds
+
+Churn -Whether a client left or not 0(still present) 1(left)
 
