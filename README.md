@@ -70,7 +70,7 @@ We  imported all the necessary libraries, load the dataset using pandas library,
 
 
 
-<img width="531" alt="image" src="https://github.com/user-attachments/assets/cf936071-bc02-4aaf-8303-c00061401b7f">
+<img width="531" alt="image" src="https://github.com/user-attachments/assets/cf936071-bc02-4aaf-8303-c00061401b7f"> <img width="401" alt="image" src="https://github.com/user-attachments/assets/28b98dae-5c62-4a99-96d9-02a4f185a426">
 
 
 
@@ -86,8 +86,6 @@ We  imported all the necessary libraries, load the dataset using pandas library,
 
 <img width="456" alt="image" src="https://github.com/user-attachments/assets/21b33d74-b1e8-464c-80ba-993d5cbb221e">
 
-
-<img width="401" alt="image" src="https://github.com/user-attachments/assets/28b98dae-5c62-4a99-96d9-02a4f185a426">
 
 
 
