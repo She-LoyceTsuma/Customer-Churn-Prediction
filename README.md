@@ -105,9 +105,169 @@ No significant correlation or linearity among predictor features against Target 
 To reconfirm we used
 
 -  Pearsons Correlation Matrix
-- Log tranformation
+- Log transformation
 
 Results indicated no linear relationship between variables
+
+### Model Selection
+Opted to use DecisionTreeClassifier Model as no linearity was observed
+
+Methodology involved:
+
+Splitting the Data into Trainset 80% and Test set 20%
+
+Data normalization using StandardScaler
+
+Creation of a Baseline Model
+
+### Evaluating the Metrics
+
+The test accuracy is only 50%, indicating that the model is not generalizing well to unseen data.
+
+This discrepancy suggests overfitting, where the model has learned the training data too well, including noise and outliers, but fails to perform adequately on new data.
+    
+True Negatives (TN): 5,031 (correctly predicted class 0)
+
+False Positives (FP): 5,048 (incorrectly predicted class 1)
+
+False Negatives (FN): 4,896 (incorrectly predicted class 0)
+
+True Positives (TP): 5,025 (correctly predicted class 1)
+
+The test confusion matrix indicates a significant number of misclassifications.
+
+The model is struggling to differentiate between the two classes, leading to a high number of false positives and false negatives.
+
+The training confusion matrix shows that the model perfectly classified all training examples, with no misclassifications.
+
+Test Classification Report:
+
+- Precision for class 0: 0.51, for class 1: 0.50
+
+- Recall for class 0: 0.50, for class 1: 0.51
+
+- F1-score for both classes: 0.50
+
+The test report shows that the model's performance is poor on unseen data, with both precision and recall around 50%. 
+
+This indicates that the model is not effectively distinguishing between the two classes.
+
+#### To Address Overfitting
+
+1.Pruning the Decision Tree: 
+
+Limit the depth of the tree by setting the max_depth parameter. 
+
+2.Increase Minimum Samples for Splits and Leaves:
+
+Adjusting parameters such as min_samples_split and min_samples_leaf to require a minimum number of samples for a split or leaf node, will help generalize better.
+
+We used GridSearchCv.
+
+
+3.Feature Engineering:
+    
+Review Features:  Consider removing irrelevant or noisy features thinking of  avoid scaling the data ..will make dataset and model simpler not complex
+
+#### Model two- Hyperparameter Tuning with GridSearchCV
+
+Training Performance
+
+The model achieves a reasonably good accuracy of 0.62 on the training set, which is not too high as previous baseline model to indicate severe overfitting.
+
+Test Performance
+
+The model achieves a much lower accuracy of 0.50 on the test set, which is significantly lower than the training accuracy.
+
+The confusion matrix for the test set shows a more imbalanced distribution compared to the training set, with higher false positives and false negatives.
+
+The classification report for the test set shows a drop in precision, recall, and F1-score for both classes compared to the training set.
+
+Avoiding scaling the data did not improve the test data
+
+#### Final Model
+
+**Accuracy Test:** 0.50
+
+**Confusion Matrix:**
+
+True Positives (TP): 5143
+
+True Negatives (TN): 4788
+
+False Positives (FP): 5291
+
+False Negatives (FN): 4778
+
+**Classification Report:**
+              precision   recall  f1-score  support
+
+           0       0.50      0.48      0.49     10079
+           1       0.49      0.52      0.51      9921
+
+    accuracy                           0.50     20000
+   macro avg       0.50      0.50      0.50     20000
+weighted avg       0.50      0.50      0.50     20000
+
+#### Objectives Evaluation
+
+**Identify Key Features Influencing Customer Churn:**
+
+The current model’s performance does not provide clear insights into the key features influencing churn due to its low accuracy and balanced precision and recall.Although exhaustive hyperparameter tuning technique was applied the GridSearchCV.
+
+Further feature importance analysis or using more sophisticated models like Random Forests or Gradient Boosting might help identify significant predictors.
+
+**Develop an Accurate Predictive Model for Churn Classification:**
+
+The model’s accuracy of 0.50 indicates it performs no better than random guessing.
+    
+This suggests the need for trying different algorithms.
+                      
+**Recommend Strategies for Customer Retention:**
+
+With the current model’s performance, it is challenging to derive actionable insights for customer retention strategies.
+    
+Improving the model’s predictive power is crucial before making reliable recommendations.
+
+#### Key Research Questions
+
+**Identifying Significant Predictors of Churn:**
+
+The model needs to be refined to accurately identify significant predictors. 
+    
+Complex Techniques like feature importance analysis and SHAP values can be useful once a better-performing model is developed.
+
+**The Accuracy of Predictions:**
+
+The current accuracy of 0.50 is insufficient for reliable predictions. 
+
+Enhancing the model’s accuracy is essential to meet this objective.
+
+**The Relationship Between Service Features and Customer Retention Strategies:**
+
+The model’s current performance does not provide clear insights into the relationship between service features and retention strategies.
+
+#### Recommendations for Improvement
+
+Algorithm Selection: We should consider trying more complex models like Random Forests, Gradient Boosting, or Neural Networks.
+
+Data Augmentation:
+    
+Collect More Data: Increase the dataset size to improve model training.
+
+# Conclusion
+
+There is need for additional data eg accomodation type, reservation type ,Sunborn to provide addtional data 
+
+A much more complex algorithm is needed and not a DecisionTreeClassifier or LogisticRegression Model(as the features do not exhibit linearity)
+
+By addressing these areas, you can work towards developing a more accurate predictive model for customer churn and derive actionable insights for retention strategies. 
+
+A more accurate model is needed to explore these relationships effectively.
+
+
+
+
 
 
 
