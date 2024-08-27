@@ -70,7 +70,7 @@ We  imported all the necessary libraries, load the dataset using pandas library,
 
 
 
-<img width="531" alt="image" src="https://github.com/user-attachments/assets/cf936071-bc02-4aaf-8303-c00061401b7f"> <img width="401" alt="image" src="https://github.com/user-attachments/assets/28b98dae-5c62-4a99-96d9-02a4f185a426">
+ <img width="401" alt="image" src="https://github.com/user-attachments/assets/28b98dae-5c62-4a99-96d9-02a4f185a426"> <img width="428" alt="image" src="https://github.com/user-attachments/assets/f66d163c-7eaa-4cca-a466-8e2b061aef85">
 
 
 
@@ -81,7 +81,34 @@ We  imported all the necessary libraries, load the dataset using pandas library,
 
 
 
-<img width="428" alt="image" src="https://github.com/user-attachments/assets/f66d163c-7eaa-4cca-a466-8e2b061aef85"> <img width="456" alt="image" src="https://github.com/user-attachments/assets/21b33d74-b1e8-464c-80ba-993d5cbb221e">
+ <img width="456" alt="image" src="https://github.com/user-attachments/assets/21b33d74-b1e8-464c-80ba-993d5cbb221e"> <img width="531" alt="image" src="https://github.com/user-attachments/assets/cf936071-bc02-4aaf-8303-c00061401b7f">
+
+ #### Summary Statistics
+- This is a balanced dataset(non-churn = 50,221 churn 49,779)- Sunborn looses almost 50% of their acquired  clients
+  
+- Most clients are female
+  
+- Average monthly bill is GBP 65
+
+- Average total income is GBP 274
+  
+- Average client age clientele is 44 years
+
+- Average client usage is 12 months max being 24 months
+
+- Most of the companies Clientele comes from Houston State and Los Angeles.
+
+  ### Multivariate Analysis
+
+No significant correlation or linearity among predictor features against Target feature
+
+To reconfirm we used
+
+-  Pearsons Correlation Matrix
+- Log tranformation
+
+Results indicated no linear relationship between variables
+
 
 
 
