@@ -20,17 +20,17 @@ The task is to predict whether a customer will continue living in their rental y
 
 The project aims to:
 
-Identify key features influencing customer churn.
+- Identify key features influencing customer churn.
 
-Develop an accurate predictive model for churn classification.
+- Develop an accurate predictive model for churn classification.
 
-Recommend strategies for customer retention.
+- Recommend strategies for customer retention.
 
 Key research questions include :
 
-Identifying significant predictors of churn
+- Identifying significant predictors of churn
 
-The accuracy of predictions
+- The accuracy of predictions
 
 The relationship between service features and customer retention strategies.
 
