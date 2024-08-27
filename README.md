@@ -36,27 +36,29 @@ Key research questions include :
 
 By focusing on these areas, the project seeks to help Sunborn effectively mitigate customer churn and enhance overall business performance.
 
-The Data
+# The Data
 
-The data obtained from Kaggle: Customer Churn Dataset
+The data obtained from Kaggle: [Customer Churn Dataset](kaggle/input/sunborn-customer-churn/customer_churn_large_dataset.csv')
 
 Data consists of the below column features:
 
-CustomerID- Unique identifier
+`CustomerID`- Unique identifier
 
-Name- Client name
+`Name`- Client name 
 
-Age- Client Age minimum being 18 years
+`Age`- Client Age minimum being 18 years
 
-Gender- Either Male or Female
+`Gender`- Either Male or Female
 
-Location- A state in USA
+`Location`- A state in USA
 
-Subscription_Length_Months- How long the client has used the Yatch premises
+`Subscription_Length_Months`- How long the client has used the Yatch premises
 
-Monthly_Bill- monthly rent charged
+`Monthly_Bill`- monthly rent charged
 
-Total_Usage_GB - Total amount in Sterling pounds
+`Total_Usage_GB` - Total amount in Sterling pounds
 
-Churn -Whether a client left or not 0(still present) 1(left)
+`Churn` -Whether a client left or not 0(still present) 1(left)
+
+
 
