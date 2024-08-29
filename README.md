@@ -18,7 +18,8 @@ Research indicates that retaining existing customers can lead to substantial pro
 
 ## The Classification Problem
 
-<img width="400" alt="image" src="https://github.com/user-attachments/assets/db79f6b0-9c79-42f7-b91b-ba93512801ce">
+<img width="355" alt="image" src="https://github.com/user-attachments/assets/957cffde-37a3-4933-874d-f0dfa82e31c7">
+
 
 The task is to predict whether a customer will continue living in their rental yatch or vacate (i.e., churn). This model could be critical for luxury real estate and maritime hospitality developers to understand customer behavior and implement retention strategies
 
