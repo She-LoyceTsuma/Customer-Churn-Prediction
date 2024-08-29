@@ -191,6 +191,9 @@ Review Features:  Consider removing irrelevant or noisy features thinking of  av
 
 #### Model two- Hyperparameter Tuning with GridSearchCV
 
+<img width="418" alt="image" src="https://github.com/user-attachments/assets/62606bc5-bc24-4c42-800b-c3e8b10c8c0d">
+
+
 Training Performance
 
 The model achieves a reasonably good accuracy of 0.62 on the training set, which is not too high as previous baseline model to indicate severe overfitting.
