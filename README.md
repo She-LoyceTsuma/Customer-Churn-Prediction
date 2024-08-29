@@ -18,7 +18,10 @@ Research indicates that retaining existing customers can lead to substantial pro
 
 ## The Classification Problem
 
-<img width="400" alt="image" src="https://github.com/user-attachments/assets/34b22cdf-83f6-4d1d-83a0-5d3494ffeca5">
+
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/34b22cdf-83f6-4d1d-83a0-5d3494ffeca5">
+
+
 
 
 
