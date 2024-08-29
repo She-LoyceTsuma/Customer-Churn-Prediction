@@ -212,6 +212,9 @@ Avoiding scaling the data did not improve the test data
 
 #### Final Model
 
+<img width="532" alt="image" src="https://github.com/user-attachments/assets/c8ee6b78-645f-4780-ad8f-80fa6914523e">
+
+
 **Accuracy Test:** 0.50
 
 **Confusion Matrix:**
