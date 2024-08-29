@@ -147,7 +147,18 @@ The test confusion matrix indicates a significant number of misclassifications.
 
 The model is struggling to differentiate between the two classes, leading to a high number of false positives and false negatives.
 
+Confusion Matrix_test:
+[[5042 5037]
+ [4942 4979]]
+
+
 The training confusion matrix shows that the model perfectly classified all training examples, with no misclassifications.
+
+Confusion Matrix_train:
+[[40142     0]
+ [    0 39858]]
+
+ 
 
 Test Classification Report:
 
