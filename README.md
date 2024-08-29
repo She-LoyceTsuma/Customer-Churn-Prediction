@@ -191,7 +191,9 @@ Review Features:  Consider removing irrelevant or noisy features thinking of  av
 
 #### Model two- Hyperparameter Tuning with GridSearchCV
 
-<img width="418" alt="image" src="https://github.com/user-attachments/assets/62606bc5-bc24-4c42-800b-c3e8b10c8c0d">
+
+<img width="652" alt="image" src="https://github.com/user-attachments/assets/14e39883-4697-46de-988c-136432a6cfa4">
+
 
 
 Training Performance
